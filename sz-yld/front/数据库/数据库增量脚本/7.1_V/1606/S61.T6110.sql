@@ -1,0 +1,2 @@
+ALTER TABLE `S61`.`T6110`
+ADD COLUMN `F19`  enum('F','S') NOT NULL DEFAULT 'F' COMMENT '是否允许购买不良债权,S:是;F:否;' AFTER `F18`;

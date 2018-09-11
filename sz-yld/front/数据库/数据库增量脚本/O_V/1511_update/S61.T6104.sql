@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `S61`.`T6104`;
+CREATE TABLE `S61`.`T6104` (
+  `F01` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '自增ID',
+  `F02` int(10) unsigned NOT NULL COMMENT '平台账号ID,参考T6101.F01',
+  `F03` int(10) unsigned DEFAULT NULL COMMENT '订单id,参考S65.T6501 F01',
+  `F04` mediumint(8) unsigned NOT NULL COMMENT '交易类型ID,参考T5122.F01',
+  `F05` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '收入',
+  `F06` decimal(20,2) unsigned NOT NULL DEFAULT '0.00' COMMENT '支出',
+  `F07` enum('DTJ','CG','SB') NOT NULL DEFAULT 'DTJ' COMMENT '交易状态：DTJ:待提交,CG:成功,SB:失败',
+  `F08` datetime NOT NULL COMMENT '创建时间',
+  `F09` int(10) NOT NULL COMMENT '操作人，参考 S71.T7110 F01',
+  `F10` varchar(300) DEFAULT NULL COMMENT '备注',
+  PRIMARY KEY (`F01`),
+  KEY `F03` (`F03`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='平台调账信息';

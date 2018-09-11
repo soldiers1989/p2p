@@ -1,0 +1,9 @@
+FAQ for Developers
+
+-> MySQL(Properties as follows): 
+	URL 						- 192.168.0.235:3308
+	user 						- root
+	password 					- dimeng.net
+	useUnicode  				- true
+	characterEncoding 			- UTF8
+	noAccessToProcedureBodies 	- true

@@ -1,0 +1,3 @@
+ALTER TABLE `S71`.`T7101`
+ADD COLUMN `F09`  varchar(20) NULL COMMENT '设置平台水印图标' AFTER `F08`;
+

@@ -1,0 +1,11 @@
+com\dimeng\p2p\modules\bid\pay\service\DonationService.class
+com\dimeng\p2p\modules\bid\pay\service\FinancialPurchaseManage.class
+com\dimeng\p2p\modules\bid\pay\service\achieve\TenderCancelManageImpl.class
+com\dimeng\p2p\modules\bid\pay\service\UserInfoManage.class
+com\dimeng\p2p\modules\bid\pay\service\achieve\FinancialPurchaseManageImpl.class
+com\dimeng\p2p\modules\bid\pay\service\TenderManage.class
+com\dimeng\p2p\modules\bid\pay\service\TenderCancelManage.class
+com\dimeng\p2p\modules\bid\pay\service\achieve\UserInfoManageImpl.class
+com\dimeng\p2p\modules\bid\pay\service\achieve\TenderManageImpl.class
+com\dimeng\p2p\modules\bid\pay\service\achieve\AbstractBidService.class
+com\dimeng\p2p\modules\bid\pay\service\achieve\DonationServiceImpl.class

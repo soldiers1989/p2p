@@ -1,0 +1,3 @@
+ALTER TABLE `S61`.`T6103`
+MODIFY COLUMN `F08`  varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '来源：（活动类型）' AFTER `F07`;
+

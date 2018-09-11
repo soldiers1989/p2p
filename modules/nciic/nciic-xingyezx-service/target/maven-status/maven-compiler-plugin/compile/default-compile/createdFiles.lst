@@ -1,0 +1,17 @@
+com\dimeng\p2p\modules\nciic\entity\QueryEntity.class
+com\dimeng\p2p\modules\nciic\service\NciicManage.class
+com\dimeng\p2p\modules\nciic\entity\QueryListEntity.class
+com\dimeng\p2p\modules\nciic\service\variables\XingyezxVariable$4.class
+com\dimeng\p2p\modules\nciic\entity\QrReqObject.class
+com\dimeng\p2p\modules\nciic\achieve\NciicManageImpl.class
+com\dimeng\p2p\modules\nciic\entity\QueryResultList.class
+com\dimeng\p2p\modules\nciic\service\variables\XingyezxVariable$2.class
+com\dimeng\p2p\modules\nciic\service\variables\XingyezxVariable$5.class
+com\dimeng\p2p\modules\nciic\entity\QueryResult.class
+com\dimeng\p2p\modules\nciic\entity\RespObject.class
+com\dimeng\p2p\modules\nciic\util\Bean2XmlUtils.class
+com\dimeng\p2p\modules\nciic\entity\ReqObjectEntity.class
+com\dimeng\p2p\modules\nciic\service\variables\XingyezxVariable$3.class
+com\dimeng\p2p\modules\nciic\service\variables\XingyezxVariable$1.class
+com\dimeng\p2p\modules\nciic\entity\ReqQueryResult.class
+com\dimeng\p2p\modules\nciic\service\variables\XingyezxVariable.class

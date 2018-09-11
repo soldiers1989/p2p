@@ -1,0 +1,2 @@
+ALTER TABLE S11._1030 ADD COLUMN `F08` int(11) DEFAULT '0' COMMENT '会话是否有效:0-有效；1-无效';
+ALTER TABLE S11._1030 ADD COLUMN `F09` enum('pc','ios','ad','wx','other') DEFAULT 'pc' COMMENT '登录终端标识: pc，ios，ad，wx，other';

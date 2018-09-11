@@ -1,0 +1,2 @@
+-- 可执行库S70
+DROP TABLE IF EXISTS `S70`.`T7036`;

@@ -1,0 +1,7 @@
+D:\workspace\雨莅贷PC-V7\p2p\modules\bid\bid-queue-service\src\main\java\com\dimeng\p2p\modules\bid\queue\service\achieve\WebSocketUtil.java
+D:\workspace\雨莅贷PC-V7\p2p\modules\bid\bid-queue-service\src\main\java\com\dimeng\p2p\modules\bid\queue\service\achieve\AbstractQueueService.java
+D:\workspace\雨莅贷PC-V7\p2p\modules\bid\bid-queue-service\src\main\java\com\dimeng\p2p\modules\bid\queue\service\achieve\QueueManageImpl.java
+D:\workspace\雨莅贷PC-V7\p2p\modules\bid\bid-queue-service\src\main\java\com\dimeng\p2p\modules\bid\queue\service\achieve\RedisMsgPubSubListener.java
+D:\workspace\雨莅贷PC-V7\p2p\modules\bid\bid-queue-service\src\main\java\com\dimeng\p2p\modules\bid\queue\service\achieve\SingletonSessionMap.java
+D:\workspace\雨莅贷PC-V7\p2p\modules\bid\bid-queue-service\src\main\java\com\dimeng\p2p\modules\bid\queue\service\QueueManage.java
+D:\workspace\雨莅贷PC-V7\p2p\modules\bid\bid-queue-service\src\main\java\com\dimeng\p2p\modules\bid\queue\service\achieve\TaskConsumer.java

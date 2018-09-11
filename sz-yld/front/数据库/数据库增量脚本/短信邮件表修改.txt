@@ -1,0 +1,43 @@
+############1040改回InnoDB模式##########
+CREATE TABLE `_1040` (
+  `F01` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `F02` int(11) NOT NULL,
+  `F03` text NOT NULL,
+  `F04` datetime NOT NULL,
+  `F05` enum('W','Z') DEFAULT 'W',
+  `F06` datetime DEFAULT NULL,
+  PRIMARY KEY (`F01`)
+) ENGINE=InnoDB AUTO_INCREMENT=2669 DEFAULT CHARSET=utf8;
+###################_1042去掉F01主键属性，新增F07主键字段#####################
+CREATE TABLE `_1042` (
+  `F01` bigint(20) unsigned NOT NULL,
+  `F02` int(11) NOT NULL,
+  `F03` text NOT NULL,
+  `F04` datetime NOT NULL,
+  `F05` enum('YES','NO') DEFAULT 'YES',
+  `F06` text,
+  `F07` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`F07`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+############1046改回InnoDB模式##########
+CREATE TABLE `_1046` (
+  `F01` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `F02` varchar(200) NOT NULL,
+  `F03` text NOT NULL,
+  `F04` int(4) DEFAULT '0',
+  `F05` datetime NOT NULL,
+  `F06` datetime DEFAULT NULL,
+  `F07` enum('Z','W') NOT NULL DEFAULT 'W',
+  PRIMARY KEY (`F01`)
+) ENGINE=InnoDB AUTO_INCREMENT=929 DEFAULT CHARSET=utf8;
+###################_1048去掉F01主键属性，新增F07主键字段#####################
+CREATE TABLE `_1048` (
+  `F01` bigint(20) unsigned NOT NULL,
+  `F02` varchar(200) NOT NULL,
+  `F03` text NOT NULL,
+  `F04` int(4) DEFAULT '0',
+  `F05` datetime NOT NULL,
+  `F06` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`F06`)
+) ENGINE=InnoDB AUTO_INCREMENT=993 DEFAULT CHARSET=utf8;

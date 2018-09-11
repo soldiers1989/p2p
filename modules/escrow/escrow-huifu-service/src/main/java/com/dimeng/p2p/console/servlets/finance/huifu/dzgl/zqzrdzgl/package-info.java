@@ -1,0 +1,2 @@
+@com.dimeng.framework.http.servlet.annotation.Module(id = "P2P_C_HUIFU_ZQZRDZGL", name = "债权转让对账", parentId = "P2P_C_HUIFUDZGL", order = 0)
+package com.dimeng.p2p.console.servlets.finance.huifu.dzgl.zqzrdzgl;

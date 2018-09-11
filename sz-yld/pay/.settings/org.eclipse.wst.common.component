@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="pay">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="common-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/common/common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="escrow-huifu-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/escrow-huifu-service/escrow-huifu-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-allinpay-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-allinpay-service/pays-allinpay-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-baofu-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-baofu-service/pays-baofu-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-chinabank-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-chinabank-service/pays-chinabank-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-dinpay-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-dinpay-service/pays-dinpay-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-gfb-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-gfb-service/pays-gfb-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-haier-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-haier-service/pays-haier-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-heepay-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-heepay-service/pays-heepay-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-huichao-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-huichao-service/pays-huichao-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-lianlianpay-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-lianlianpay-service/pays-lianlianpay-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-shuangqian-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-shuangqian-service/pays-shuangqian-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pays-sinapay-service-4.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pays-sinapay-service/pays-sinapay-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/pay/target/classes"/>
+        <property name="context-root" value="pay"/>
+    </wb-module>
+</project-modules>

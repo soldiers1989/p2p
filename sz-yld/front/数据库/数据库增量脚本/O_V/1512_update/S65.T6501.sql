@@ -1,0 +1,2 @@
+ALTER TABLE S65.`T6501`
+ADD COLUMN `F11`  enum('F','S') CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'F' COMMENT 'F:н╢╤тук;S:ря╤тук';

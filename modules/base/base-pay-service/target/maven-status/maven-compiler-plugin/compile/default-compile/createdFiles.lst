@@ -1,0 +1,14 @@
+com\dimeng\p2p\modules\base\pay\service\RepaymentManage.class
+com\dimeng\p2p\modules\base\pay\service\ActivityManage.class
+com\dimeng\p2p\modules\base\pay\service\achieve\ZqzrApplyManageImpl.class
+com\dimeng\p2p\modules\base\pay\service\ZqzrApplyManage.class
+com\dimeng\p2p\modules\base\pay\service\achieve\AbstractBaseManage.class
+com\dimeng\p2p\modules\base\pay\service\DefaultInterestManage.class
+com\dimeng\p2p\modules\base\pay\service\achieve\ExperienceManageImpl.class
+com\dimeng\p2p\modules\base\pay\service\ExperienceManage.class
+com\dimeng\p2p\modules\base\pay\service\achieve\RepaymentManageImpl.class
+com\dimeng\p2p\modules\base\pay\service\achieve\ActivityManageImpl.class
+com\dimeng\p2p\modules\base\pay\service\achieve\DefaultInterestManageImpl.class
+com\dimeng\p2p\modules\base\pay\service\OrderManage.class
+com\dimeng\p2p\modules\base\pay\service\entity\ZqzrApplyRecord.class
+com\dimeng\p2p\modules\base\pay\service\achieve\OrderManageImpl.class

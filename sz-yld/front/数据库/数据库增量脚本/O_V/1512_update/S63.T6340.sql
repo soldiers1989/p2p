@@ -1,0 +1,1 @@
+ALTER TABLE `S63`.`T6340` ADD COLUMN `F21` varchar(20)  NULL COMMENT '下架、作废原因';

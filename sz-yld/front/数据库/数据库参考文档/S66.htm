@@ -1,0 +1,1129 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0079)http://localhost:8088/EntityMaker/docGenerator.html -->
+<HTML><HEAD><TITLE>S66</TITLE>
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<STYLE>TABLE {
+	BORDER-LEFT: #accad4 1px solid; WIDTH: 100%; BORDER-COLLAPSE: collapse; BACKGROUND: #fff; TABLE-LAYOUT: fixed; BORDER-TOP: #accad4 1px solid
+}
+CAPTION {
+	DISPLAY: table-caption
+}
+THEAD {
+	DISPLAY: table-header-group
+}
+THEAD TR {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #dce9f9; PAGE-BREAK-INSIDE: avoid; COLOR: #075587; FONT-WEIGHT: bold; text-shadow: 0 1px 0 rgba(255, 255, 255, .5)
+}
+THEAD TR TH {
+	BORDER-BOTTOM: #accad4 1px solid; MIN-WIDTH: 60px; PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 20px; FONT-WEIGHT: bold; BORDER-RIGHT: #accad4 1px solid; PADDING-TOP: 5px; text-shadow: 0 1px 0 rgba(255, 255, 255, .5); box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset
+}
+THEAD TR TH:first-child {
+	MIN-WIDTH: 40px; WIDTH: 80px
+}
+TBODY TR {
+	PAGE-BREAK-INSIDE: avoid; CURSOR: pointer
+}
+TBODY TR TD {
+	BORDER-BOTTOM: #accad4 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; MARGIN: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; WHITE-SPACE: normal; WORD-BREAK: break-all; BORDER-RIGHT: #accad4 1px solid; PADDING-TOP: 0px
+}
+TBODY TR TD:first-child {
+	TEXT-ALIGN: center; FONT-WEIGHT: bold
+}
+TBODY TR TD FONT {
+	FONT-WEIGHT: bold
+}
+TBODY TR TD UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-WEIGHT: bold; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 8.00.7601.19038"></HEAD>
+<BODY>
+<DIV>
+<H1><A name=_top>S66</A></H1></DIV>
+<DIV>
+<OL>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_BLOB_TRIGGERS">(QRTZ_BLOB_TRIGGERS)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_CALENDARS">(QRTZ_CALENDARS)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_CRON_TRIGGERS">(QRTZ_CRON_TRIGGERS)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_FIRED_TRIGGERS">(QRTZ_FIRED_TRIGGERS)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_JOB_DETAILS">(QRTZ_JOB_DETAILS)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_LOCKS">(QRTZ_LOCKS)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_PAUSED_TRIGGER_GRPS">(QRTZ_PAUSED_TRIGGER_GRPS)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_SCHEDULER_STATE">(QRTZ_SCHEDULER_STATE)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_SIMPLE_TRIGGERS">(QRTZ_SIMPLE_TRIGGERS)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_SIMPROP_TRIGGERS">(QRTZ_SIMPROP_TRIGGERS)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#QRTZ_TRIGGERS">(QRTZ_TRIGGERS)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#T6601">定时任务管理表(T6601)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#T6602">定时任务异常表(T6602)</A></LI></OL></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_BLOB_TRIGGERS>
+  <H2>(QRTZ_BLOB_TRIGGERS)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_GROUP</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>BLOB_DATA</TD>
+    <TD>blob</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_CALENDARS>
+  <H2>(QRTZ_CALENDARS)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>CALENDAR_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>CALENDAR</TD>
+    <TD>blob</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_CRON_TRIGGERS>
+  <H2>(QRTZ_CRON_TRIGGERS)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_GROUP</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>CRON_EXPRESSION</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TIME_ZONE_ID</TD>
+    <TD>varchar(80)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_FIRED_TRIGGERS>
+  <H2>(QRTZ_FIRED_TRIGGERS)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>ENTRY_ID</TD>
+    <TD>varchar(95)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_GROUP</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>INSTANCE_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>FIRED_TIME</TD>
+    <TD>bigint(13)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>SCHED_TIME</TD>
+    <TD>bigint(13)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>PRIORITY</TD>
+    <TD>int(11)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>STATE</TD>
+    <TD>varchar(16)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>JOB_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>JOB_GROUP</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>IS_NONCONCURRENT</TD>
+    <TD>varchar(1)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>REQUESTS_RECOVERY</TD>
+    <TD>varchar(1)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_JOB_DETAILS>
+  <H2>(QRTZ_JOB_DETAILS)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>JOB_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>JOB_GROUP</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>DESCRIPTION</TD>
+    <TD>varchar(250)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>JOB_CLASS_NAME</TD>
+    <TD>varchar(250)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>IS_DURABLE</TD>
+    <TD>varchar(1)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>IS_NONCONCURRENT</TD>
+    <TD>varchar(1)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>IS_UPDATE_DATA</TD>
+    <TD>varchar(1)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>REQUESTS_RECOVERY</TD>
+    <TD>varchar(1)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>JOB_DATA</TD>
+    <TD>blob</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_LOCKS>
+  <H2>(QRTZ_LOCKS)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>LOCK_NAME</TD>
+    <TD>varchar(40)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_PAUSED_TRIGGER_GRPS>
+  <H2>(QRTZ_PAUSED_TRIGGER_GRPS)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_GROUP</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_SCHEDULER_STATE>
+  <H2>(QRTZ_SCHEDULER_STATE)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>INSTANCE_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>LAST_CHECKIN_TIME</TD>
+    <TD>bigint(13)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>CHECKIN_INTERVAL</TD>
+    <TD>bigint(13)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_SIMPLE_TRIGGERS>
+  <H2>(QRTZ_SIMPLE_TRIGGERS)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_GROUP</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>REPEAT_COUNT</TD>
+    <TD>bigint(7)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>REPEAT_INTERVAL</TD>
+    <TD>bigint(12)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TIMES_TRIGGERED</TD>
+    <TD>bigint(10)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_SIMPROP_TRIGGERS>
+  <H2>(QRTZ_SIMPROP_TRIGGERS)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_GROUP</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>STR_PROP_1</TD>
+    <TD>varchar(512)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>STR_PROP_2</TD>
+    <TD>varchar(512)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>STR_PROP_3</TD>
+    <TD>varchar(512)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>INT_PROP_1</TD>
+    <TD>int(11)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>INT_PROP_2</TD>
+    <TD>int(11)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>LONG_PROP_1</TD>
+    <TD>bigint(20)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>LONG_PROP_2</TD>
+    <TD>bigint(20)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>DEC_PROP_1</TD>
+    <TD>decimal(13,4)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>DEC_PROP_2</TD>
+    <TD>decimal(13,4)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>BOOL_PROP_1</TD>
+    <TD>varchar(1)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>BOOL_PROP_2</TD>
+    <TD>varchar(1)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=QRTZ_TRIGGERS>
+  <H2>(QRTZ_TRIGGERS)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>SCHED_NAME</TD>
+    <TD>varchar(120)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_GROUP</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>JOB_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>JOB_GROUP</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>DESCRIPTION</TD>
+    <TD>varchar(250)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>NEXT_FIRE_TIME</TD>
+    <TD>bigint(13)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>PREV_FIRE_TIME</TD>
+    <TD>bigint(13)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>PRIORITY</TD>
+    <TD>int(11)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_STATE</TD>
+    <TD>varchar(16)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>TRIGGER_TYPE</TD>
+    <TD>varchar(8)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>START_TIME</TD>
+    <TD>bigint(13)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>END_TIME</TD>
+    <TD>bigint(13)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>CALENDAR_NAME</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>MISFIRE_INSTR</TD>
+    <TD>smallint(2)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD>JOB_DATA</TD>
+    <TD>blob</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD></TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=T6601>
+  <H2>定时任务管理表(T6601)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(11) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>自增</LI>
+        <LI>无符号</LI></UL></TD>
+    <TD>主键ID</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>varchar(100)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>任务名称</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>varchar(300)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>执行类</TD></TR>
+  <TR>
+    <TD>F04</TD>
+    <TD>varchar(100)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>执行方法</TD></TR>
+  <TR>
+    <TD>F05</TD>
+    <TD>varchar(100)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>执行时间</TD></TR>
+  <TR>
+    <TD>F06</TD>
+    <TD>enum('ENABLE','DISABLE')</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>ENABLE</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>启用状态；ENABLE：启用，DISABLE：禁用</TD></TR>
+  <TR>
+    <TD>F07</TD>
+    <TD>timestamp</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>任务最近运行结束时间</TD></TR>
+  <TR>
+    <TD>F08</TD>
+    <TD>timestamp</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>任务最近运行开始时间</TD></TR>
+  <TR>
+    <TD>F09</TD>
+    <TD>timestamp</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0000-00-00 00:00:00</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>创建时间</TD></TR>
+  <TR>
+    <TD>F10</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>扩展参数</TD></TR>
+  <TR>
+    <TD>F11</TD>
+    <TD>varchar(500)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>备注</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=T6602>
+  <H2>定时任务异常表(T6602)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(11) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>自增</LI>
+        <LI>无符号</LI></UL></TD>
+    <TD>主键ID</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>int(11)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>定时任务ID</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>text</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>异常内容</TD></TR>
+  <TR>
+    <TD>F04</TD>
+    <TD>datetime</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>创建时间</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S66&amp;c=S66#_top">顶部</A></DIV></DIV></BODY></HTML>

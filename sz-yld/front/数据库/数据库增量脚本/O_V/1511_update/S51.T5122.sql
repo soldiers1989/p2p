@@ -1,0 +1,2 @@
+INSERT INTO `S51`.`T5122` VALUES ('1005', '平台充值', 'QY');
+INSERT INTO `S51`.`T5122` VALUES ('2004', '平台提现', 'QY');

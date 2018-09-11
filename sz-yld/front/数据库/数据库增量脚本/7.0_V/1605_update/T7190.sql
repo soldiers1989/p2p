@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `S71`.`T7190`;
+CREATE TABLE `S71`.`T7190` (
+  `F01` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '一级用户投资金额',
+  `F02` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '一级用户借款金额',
+  `F03` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '一级用户充值金额',
+  `F04` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '一级用户提现金额',
+  `F05` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '二级用户投资金额',
+  `F06` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '二级用户借款金额',
+  `F07` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '二级用户充值金额',
+  `F08` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '二级用户提现金额',
+  `F09` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  `F10` varchar(50) NOT NULL COMMENT '日期',
+  `F11` varchar(50) NOT NULL COMMENT '业务工号',
+  PRIMARY KEY (`F10`,`F11`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='业务员业绩统计';

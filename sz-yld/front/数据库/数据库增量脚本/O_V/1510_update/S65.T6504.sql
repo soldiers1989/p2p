@@ -1,0 +1,2 @@
+ALTER TABLE `T6504`
+ADD COLUMN `F06`  enum('S','F') NULL DEFAULT 'F' COMMENT '是否自动投资订单';

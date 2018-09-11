@@ -1,0 +1,576 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0079)http://localhost:8088/EntityMaker/docGenerator.html -->
+<HTML><HEAD><TITLE>S64</TITLE>
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<STYLE>TABLE {
+	BORDER-LEFT: #accad4 1px solid; WIDTH: 100%; BORDER-COLLAPSE: collapse; BACKGROUND: #fff; TABLE-LAYOUT: fixed; BORDER-TOP: #accad4 1px solid
+}
+CAPTION {
+	DISPLAY: table-caption
+}
+THEAD {
+	DISPLAY: table-header-group
+}
+THEAD TR {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #dce9f9; PAGE-BREAK-INSIDE: avoid; COLOR: #075587; FONT-WEIGHT: bold; text-shadow: 0 1px 0 rgba(255, 255, 255, .5)
+}
+THEAD TR TH {
+	BORDER-BOTTOM: #accad4 1px solid; MIN-WIDTH: 60px; PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 20px; FONT-WEIGHT: bold; BORDER-RIGHT: #accad4 1px solid; PADDING-TOP: 5px; text-shadow: 0 1px 0 rgba(255, 255, 255, .5); box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset
+}
+THEAD TR TH:first-child {
+	MIN-WIDTH: 40px; WIDTH: 80px
+}
+TBODY TR {
+	PAGE-BREAK-INSIDE: avoid; CURSOR: pointer
+}
+TBODY TR TD {
+	BORDER-BOTTOM: #accad4 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; MARGIN: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; WHITE-SPACE: normal; WORD-BREAK: break-all; BORDER-RIGHT: #accad4 1px solid; PADDING-TOP: 0px
+}
+TBODY TR TD:first-child {
+	TEXT-ALIGN: center; FONT-WEIGHT: bold
+}
+TBODY TR TD FONT {
+	FONT-WEIGHT: bold
+}
+TBODY TR TD UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-WEIGHT: bold; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 8.00.7601.19038"></HEAD>
+<BODY>
+<DIV>
+<H1><A name=_top>S64</A></H1></DIV>
+<DIV>
+<OL>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S64&amp;c=S64#T6410">优选理财计划(T6410)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S64&amp;c=S64#T6411">优选理财持有人表(T6411)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S64&amp;c=S64#T6412">优选理财还款记录(T6412)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S64&amp;c=S64#T6413">优选计划统计表(T6413)</A></LI></OL></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=T6410>
+  <H2>优选理财计划(T6410)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>自增</LI>
+        <LI>无符号</LI></UL></TD>
+    <TD>自增ID</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>varchar(45)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>优选理财标题</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>decimal(20,2) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>总金额</TD></TR>
+  <TR>
+    <TD>F04</TD>
+    <TD>decimal(20,2) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>可投余额</TD></TR>
+  <TR>
+    <TD>F05</TD>
+    <TD>decimal(6,6)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>年化收益率</TD></TR>
+  <TR>
+    <TD>F06</TD>
+    <TD>int(11) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>投标类型ID,参考T6211.F01</TD></TR>
+  <TR>
+    <TD>F07</TD>
+    <TD>enum('XJ','YFB','YSX','YJZ')</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>XJ</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>计划状态,XJ:新建;YFB:已发布;YSX:已生效;YJZ:已截止</TD></TR>
+  <TR>
+    <TD>F08</TD>
+    <TD>int(11) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>满额用时（秒计算）</TD></TR>
+  <TR>
+    <TD>F09</TD>
+    <TD>datetime</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>申请开始时间</TD></TR>
+  <TR>
+    <TD>F10</TD>
+    <TD>date</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>申请结束日期</TD></TR>
+  <TR>
+    <TD>F11</TD>
+    <TD>int(11) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>锁定期限(月)</TD></TR>
+  <TR>
+    <TD>F12</TD>
+    <TD>datetime</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>满额时间</TD></TR>
+  <TR>
+    <TD>F13</TD>
+    <TD>date</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>锁定结束日期</TD></TR>
+  <TR>
+    <TD>F14</TD>
+    <TD>enum('DEBX','MYHXDQHB','YCXHBFX')</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>收益处理,MYHXDQHB:每月还息，到期还本;YCXHBFX:一次性还本付息;DEBX:等额本息</TD></TR>
+  <TR>
+    <TD>F15</TD>
+    <TD>decimal(6,6) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>加入费率</TD></TR>
+  <TR>
+    <TD>F16</TD>
+    <TD>decimal(6,6) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>服务费率</TD></TR>
+  <TR>
+    <TD>F17</TD>
+    <TD>decimal(6,6) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>退出费率</TD></TR>
+  <TR>
+    <TD>F18</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>计划介绍</TD></TR>
+  <TR>
+    <TD>F19</TD>
+    <TD>int(11) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>创建人,参考T7010.F01</TD></TR>
+  <TR>
+    <TD>F20</TD>
+    <TD>datetime</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>创建时间</TD></TR>
+  <TR>
+    <TD>F21</TD>
+    <TD>date</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>下一还款日</TD></TR>
+  <TR>
+    <TD>F22</TD>
+    <TD>decimal(20,2) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>投资下限</TD></TR>
+  <TR>
+    <TD>F23</TD>
+    <TD>decimal(20,2) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>投资上限</TD></TR>
+  <TR>
+    <TD>F24</TD>
+    <TD>enum('QEBXBZ')</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>保障方式,QEBXBZ:全额本息保障</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S64&amp;c=S64#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=T6411>
+  <H2>优选理财持有人表(T6411)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>自增</LI>
+        <LI>无符号</LI></UL></TD>
+    <TD>优选理财持有人表自增ID</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>优选理财计划表ID,参考T6410.F01</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>持有人ID,参考T6110.F01</TD></TR>
+  <TR>
+    <TD>F04</TD>
+    <TD>decimal(20,2) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0.00</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>原始债权</TD></TR>
+  <TR>
+    <TD>F05</TD>
+    <TD>decimal(20,2)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0.00</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>剩余债权</TD></TR>
+  <TR>
+    <TD>F06</TD>
+    <TD>datetime</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>加入时间</TD></TR>
+  <TR>
+    <TD>F07</TD>
+    <TD>timestamp</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>CURRENT_TIMESTAMP</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>最后更新时间</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S64&amp;c=S64#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=T6412>
+  <H2>优选理财还款记录(T6412)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>自增</LI>
+        <LI>无符号</LI></UL></TD>
+    <TD>自增ID</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>优选理财计划ID,参考T6410.F01</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>付款用户ID,参考T6110.F01</TD></TR>
+  <TR>
+    <TD>F04</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>收款用户ID,参考T6110.F01</TD></TR>
+  <TR>
+    <TD>F05</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>交易类型ID,参考T5122.F01</TD></TR>
+  <TR>
+    <TD>F06</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>期号</TD></TR>
+  <TR>
+    <TD>F07</TD>
+    <TD>decimal(20,2) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>金额</TD></TR>
+  <TR>
+    <TD>F08</TD>
+    <TD>date</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>应还日期</TD></TR>
+  <TR>
+    <TD>F09</TD>
+    <TD>enum('WH','YH')</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>状态,WH:未还;YH:已还;</TD></TR>
+  <TR>
+    <TD>F10</TD>
+    <TD>datetime</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>实际还款时间</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S64&amp;c=S64#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=T6413>
+  <H2>优选计划统计表(T6413)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>用户账号ID,参考T6010.F01</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>decimal(20,2)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0.00</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>已赚总金额</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>decimal(20,2)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0.00</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>优选理财账户资产</TD></TR>
+  <TR>
+    <TD>F04</TD>
+    <TD>decimal(3,3)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0.000</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>平均收益率</TD></TR>
+  <TR>
+    <TD>F05</TD>
+    <TD>int(10)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>持有中的计划数量</TD></TR>
+  <TR>
+    <TD>F06</TD>
+    <TD>decimal(20,2)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0.00</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>加入费用</TD></TR>
+  <TR>
+    <TD>F07</TD>
+    <TD>decimal(20,2)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0.00</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>优选理财投资金额</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S64&amp;c=S64#_top">顶部</A></DIV></DIV></BODY></HTML>

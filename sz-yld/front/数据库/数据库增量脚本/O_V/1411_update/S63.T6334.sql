@@ -1,0 +1,2 @@
+-- COMMENT '发放场景,ZC:注册;CZ:充值;TZ:投资;RZ:认证'
+ALTER TABLE `S63`.`T6334` MODIFY `F03` enum('ZC','CZ','RZ','TZ') NOT NULL DEFAULT 'CZ'; 

@@ -1,0 +1,8 @@
+com\dimeng\p2p\modules\bid\queue\service\achieve\TaskConsumer.class
+com\dimeng\p2p\modules\bid\queue\service\achieve\SingletonSessionMap.class
+com\dimeng\p2p\modules\bid\queue\service\achieve\RedisMsgPubSubListener.class
+com\dimeng\p2p\modules\bid\queue\service\achieve\QueueManageImpl$1.class
+com\dimeng\p2p\modules\bid\queue\service\QueueManage.class
+com\dimeng\p2p\modules\bid\queue\service\achieve\AbstractQueueService.class
+com\dimeng\p2p\modules\bid\queue\service\achieve\QueueManageImpl.class
+com\dimeng\p2p\modules\bid\queue\service\achieve\WebSocketUtil.class

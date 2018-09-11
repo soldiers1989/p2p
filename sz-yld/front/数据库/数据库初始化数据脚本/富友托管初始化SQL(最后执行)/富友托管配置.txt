@@ -1,0 +1,37 @@
+﻿=========================P2P 平台系统常量配置============================================
+{P2P 平台系统常量配置：
+FUYOU_ESCROW.FUYOU_CHAREFEE_ONOFF		充值手续开关ON-OFF			默认值: NO				备注： ON:开启;OFF：关闭
+FUYOU_ESCROW.FUYOU_P2P_ACCOUNT_NAME		p2p平台在富友操作员账号		默认值: 【富友给定】	备注： 富友系统给予操作员账号
+FUYOU_ESCROW.FUYOU_ACCOUNT_ID			富友分配的商户代码			默认值: 【富友给定】	备注： 富友系统给予商户号
+FUYOU_ESCROW.FUYOU_PRIVATEKEY_PATH		私钥文件路径				默认值：【放置服务器上】备注： 富友系统给
+FUYOU_ESCROW.FUYOU_PUBLICKEY_PATH		公钥文件路径				默认值：【放置服务器上】备注： 富友系统给
+FUYOU_ESCROW.FUYOU_URL					富友的IP地址和端口			默认值： 看说明			备注： 富友系统地址
+FUYOU_ESCROW.FUYOU_AUTORECON_ORDTIME	扫描多少分钟之前的订单		默认值： 30				备注： 可更改 建议 20~30 手动对账 5分后
+FUYOU_ESCROW.FUYOU_NUMBER				扫描前多少条订单			默认值： 50				备注： 可更改 建议 50~100
+
+说明：
+FUYOU_ESCROW.FUYOU_PRIVATEKEY_PATH ：//home//webapps//p2p//merpg//prkey.key
+FUYOU_ESCROW.FUYOU_URL	：【测试】 www-1.fuiou.com:9057/jzh  【生产】 jzh.fuiou.com
+生产： http://${FUYOU_ESCROW.FUYOU_URL}   所以改为  https://${FUYOU_ESCROW.FUYOU_URL}
+};
+
+充值手续费，都是平台收用户的，富有收平台的，迪蒙定制版
+
+=========================富友需绑定地址============================================
+
+{富友需绑定地址：
+充值通知：	http://61.145.159.156:8315/pay/fuyou/chargeInform.htm
+提现通知：	http://61.145.159.156:8315/pay/fuyou/withdrawInform.htm
+用户修改信息通知接口：	http://61.145.159.156:8315/pay/fuyou/updateInform.htm
+};
+
+富友商户号：密码：8888888
+0002900F0041270      jzh01
+0002900F0041271      jzh02
+0006510F0106121      jzh03
+0006410F0026868      jzh04
+0006510F0093601      jzh05
+0006530F0082654      jzh06
+0002900F0041080      jzh07
+0002900F0055736      jzh08
+0002900F0041077      jzh09

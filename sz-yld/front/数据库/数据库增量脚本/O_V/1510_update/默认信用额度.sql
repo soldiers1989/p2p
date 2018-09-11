@@ -1,0 +1,1 @@
+INSERT INTO `S51`.`T5122` VALUES ('1105', '默认信用额度', 'QY');

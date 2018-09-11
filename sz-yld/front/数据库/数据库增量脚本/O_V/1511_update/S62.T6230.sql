@@ -1,0 +1,2 @@
+ALTER TABLE `S62`.`T6230`
+ADD COLUMN `F33` enum('S','F') NOT NULL DEFAULT 'F' COMMENT '是否信用标,S:是;F:否;';

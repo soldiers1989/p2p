@@ -1,0 +1,10 @@
+ALTER TABLE `S61`.`T6161`
+ADD COLUMN `F19`  varchar(20) NULL COMMENT '社会信用代码',
+ADD COLUMN `F20`  varchar(10) NULL COMMENT '是否三证合一';
+
+ALTER TABLE `S61`.`T6161`
+MODIFY COLUMN `F03`  varchar(45) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '营业执照登记注册号,唯一';
+
+
+ALTER TABLE S61.`T6161`
+ADD COLUMN `F21`  varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '开户银行许可证';

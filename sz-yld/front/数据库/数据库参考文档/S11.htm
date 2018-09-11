@@ -1,0 +1,434 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0079)http://localhost:8088/EntityMaker/docGenerator.html -->
+<HTML><HEAD><TITLE>S11</TITLE>
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<STYLE>TABLE {
+	BORDER-LEFT: #accad4 1px solid; WIDTH: 100%; BORDER-COLLAPSE: collapse; BACKGROUND: #fff; TABLE-LAYOUT: fixed; BORDER-TOP: #accad4 1px solid
+}
+CAPTION {
+	DISPLAY: table-caption
+}
+THEAD {
+	DISPLAY: table-header-group
+}
+THEAD TR {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #dce9f9; PAGE-BREAK-INSIDE: avoid; COLOR: #075587; FONT-WEIGHT: bold; text-shadow: 0 1px 0 rgba(255, 255, 255, .5)
+}
+THEAD TR TH {
+	BORDER-BOTTOM: #accad4 1px solid; MIN-WIDTH: 60px; PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 20px; FONT-WEIGHT: bold; BORDER-RIGHT: #accad4 1px solid; PADDING-TOP: 5px; text-shadow: 0 1px 0 rgba(255, 255, 255, .5); box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset
+}
+THEAD TR TH:first-child {
+	MIN-WIDTH: 40px; WIDTH: 80px
+}
+TBODY TR {
+	PAGE-BREAK-INSIDE: avoid; CURSOR: pointer
+}
+TBODY TR TD {
+	BORDER-BOTTOM: #accad4 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; MARGIN: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; WHITE-SPACE: normal; WORD-BREAK: break-all; BORDER-RIGHT: #accad4 1px solid; PADDING-TOP: 0px
+}
+TBODY TR TD:first-child {
+	TEXT-ALIGN: center; FONT-WEIGHT: bold
+}
+TBODY TR TD FONT {
+	FONT-WEIGHT: bold
+}
+TBODY TR TD UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-WEIGHT: bold; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 8.00.7601.19038"></HEAD>
+<BODY>
+<DIV>
+<H1><A name=_top>S11</A></H1></DIV>
+<DIV>
+<OL>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_1030">会话信息表(_1030)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_1031">会话验证码表(_1031)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_1032">会话属性表(_1032)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_1033">会话浏览器信息表(_1033)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_1034">临时登录账户集合(_1034)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_1035">用户登录人次(_1035)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_1036">用户在线统计表(_1036)</A></LI>
+  <LI><A 
+  href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_1037">异常登录次数(_1037)</A></LI></OL></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=_1030>
+  <H2>会话信息表(_1030)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>自增</LI>
+        <LI>无符号</LI></UL></TD>
+    <TD>自增ID</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>char(45)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>会话ID</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>datetime</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>创建时间</TD></TR>
+  <TR>
+    <TD>F04</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>账号ID</TD></TR>
+  <TR>
+    <TD>F05</TD>
+    <TD>datetime</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>过期时间</TD></TR>
+  <TR>
+    <TD>F06</TD>
+    <TD>varchar(40)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>登录IP</TD></TR>
+  <TR>
+    <TD>F07</TD>
+    <TD>varchar(40)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>浏览器特征信息</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=_1031>
+  <H2>会话验证码表(_1031)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>会话ID</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>varchar(50)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>验证码类型</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>varchar(20)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>显示内容</TD></TR>
+  <TR>
+    <TD>F04</TD>
+    <TD>varchar(20)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>验证内容</TD></TR>
+  <TR>
+    <TD>F05</TD>
+    <TD>datetime</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>过期时间</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=_1032>
+  <H2>会话属性表(_1032)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>会话ID</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>varchar(60)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>属性名称</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>varchar(200)</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>属性值</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=_1033>
+  <H2>会话浏览器信息表(_1033)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>会话ID</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>text</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>浏览器信息</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=_1034>
+  <H2>临时登录账户集合(_1034)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>账户ID</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=_1035>
+  <H2>用户登录人次(_1035)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>date</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>日期</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>登录人次</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=_1036>
+  <H2>用户在线统计表(_1036)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>date</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>日期</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>时间</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>在线人数</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_top">顶部</A></DIV></DIV>
+<DIV>
+<TABLE>
+  <CAPTION><A name=_1037>
+  <H2>异常登录次数(_1037)</H2></A></CAPTION>
+  <THEAD>
+  <TR>
+    <TH>字段名</TH>
+    <TH ?30%?>类型</TH>
+    <TH width="8%">允许NULL</TH>
+    <TH width="15%">默认值</TH>
+    <TH width="8%">主键</TH>
+    <TH width="8%">扩展信息</TH>
+    <TH>说明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD>F01</TD>
+    <TD>varchar(40)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>账户ID</TD></TR>
+  <TR>
+    <TD>F02</TD>
+    <TD>varchar(40)</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>NULL</TD>
+    <TD><FONT color=red>是</FONT></TD>
+    <TD>
+      <UL></UL></TD>
+    <TD>登录IP</TD></TR>
+  <TR>
+    <TD>F03</TD>
+    <TD>int(10) unsigned</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>0</TD>
+    <TD><FONT color=blue>否</FONT></TD>
+    <TD>
+      <UL>
+        <LI>无符号</LI></UL></TD>
+    <TD>失败次数</TD></TR></TBODY></TABLE>
+<DIV style="TEXT-ALIGN: right"><A 
+href="http://localhost:8088/EntityMaker/docGenerator.html?a=192.168.0.230&amp;b=S11&amp;c=S11#_top">顶部</A></DIV></DIV></BODY></HTML>

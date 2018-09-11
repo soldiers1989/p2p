@@ -1,0 +1,1 @@
+ALTER TABLE `S61`.`T6118` ADD COLUMN `F12` datetime DEFAULT NULL COMMENT '实名认证提交第三方时间';

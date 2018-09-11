@@ -1,0 +1,1 @@
+ALTER TABLE `S62`.`T6250` ADD COLUMN `F10` varchar(30)  DEFAULT NULL COMMENT 'Ô¤ÊÚÈ¨ºÏÍ¬ºÅ';

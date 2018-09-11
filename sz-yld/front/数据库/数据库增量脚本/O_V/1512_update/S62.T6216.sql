@@ -1,0 +1,4 @@
+ALTER TABLE `S62`.`T6216`
+ADD COLUMN `F16`  int(10) NULL COMMENT '最低借款期限（按天）' AFTER `F15`,
+ADD COLUMN `F17`  int(10) NULL COMMENT '最高借款期限（按天）' AFTER `F16`;
+

@@ -1,0 +1,2 @@
+ALTER TABLE `S62`.T6230
+MODIFY COLUMN `F20`  enum('SQZ','DSH','DFB','YFB','TBZ','DFK','HKZ','YDF','YZR','YJQ','YLB','YZF') CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'SQZ' COMMENT '状态,SQZ:申请中;DSH:待审核;DFB:待发布;YFB:预发布;TBZ:投资中;DFK:待放款;HKZ:还款中;YJQ:已结清;YLB:已流标;YDF:已垫付;YZF:已作废;YZR:已转让;' AFTER `F19`;

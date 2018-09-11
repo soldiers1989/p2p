@@ -1,0 +1,2 @@
+ALTER TABLE `S61`.`T6180` 
+ADD COLUMN `F04` text COMMENT 'ตฃฑฃป๚นนร่ส๖';

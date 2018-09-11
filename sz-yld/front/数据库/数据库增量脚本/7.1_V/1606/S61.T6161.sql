@@ -1,0 +1,2 @@
+ALTER TABLE `S61`.`T6161`
+ADD COLUMN `F22`  enum('F','M') DEFAULT NULL COMMENT 'ÐÔ±ð:FÅ®£¬MÄÐ';

@@ -1,0 +1,2 @@
+ALTER TABLE `S61`.`T6122`
+MODIFY COLUMN `F02`  varchar(20) NOT NULL COMMENT '¸½¼þÎÄ¼þ±àÂë' AFTER `F01`;

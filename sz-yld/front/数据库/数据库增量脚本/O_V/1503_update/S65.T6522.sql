@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `S65`.`T6522`;
+CREATE TABLE `S65`.`T6522` (
+`F01`  int(10) unsigned NOT NULL  ,
+`F02`  int(10) unsigned NOT NULL ,
+`F03`  int(10) unsigned NOT NULL ,
+PRIMARY KEY (`F01`),
+INDEX `F02` (`F02`),
+INDEX `F03` (`F03`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

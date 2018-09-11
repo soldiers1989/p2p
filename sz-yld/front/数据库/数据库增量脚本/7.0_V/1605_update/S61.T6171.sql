@@ -1,0 +1,1 @@
+ALTER TABLE S61.T6171 ADD COLUMN `F09` enum('Y','N') DEFAULT 'N' COMMENT 'йг╥Ян╒пейзх╗';

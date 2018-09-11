@@ -1,0 +1,3 @@
+ALTER TABLE `T6114`
+ADD COLUMN `F11`  varchar(45) NOT NULL COMMENT '开户名',
+ADD COLUMN `F12`  int(2) NOT NULL COMMENT '开户名类型；1：个人，2：公司';

@@ -1,0 +1,2 @@
+ALTER TABLE `S10`.`_1040`
+ADD COLUMN `F08`  varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL ;

@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS `S61`.`T6125`;
+CREATE TABLE `S61`.`T6125` (
+  `F01` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
+  `F02` int(10) NOT NULL COMMENT '用户ID（参考T6110.F01）',
+  `F03` char(7) NOT NULL COMMENT '担保码',
+  `F04` decimal(20,2) NOT NULL DEFAULT '0.00' COMMENT '担保额度',
+  `F05` enum('SQDCL','QXDCL','SQCG','SQSB','QXCG','QXSB') NOT NULL COMMENT '状态：''SQDCL''：申请担保待处理,''QXDCL''：取消担保待处理,''SQCG''：申请担保成功,''SQSB''：申请担保失败,''QXCG''：取消担保成功,''QXSB''：取消担保失败',
+  `F06` datetime NOT NULL COMMENT '申请时间',
+  `F07` int(10) DEFAULT NULL COMMENT '审核人（参考T7110.F01）',
+  `F08` datetime DEFAULT NULL COMMENT '审核时间',
+  `F09` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  `F10` varchar(200) DEFAULT NULL COMMENT '审核意见',
+  PRIMARY KEY (`F01`),
+  UNIQUE KEY `unquie_index` (`F02`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COMMENT='担保方申请表';

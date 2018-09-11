@@ -1,0 +1,9 @@
+CREATE TABLE `S62`.`T6290` (
+  `F01` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `F02` varchar(50) NOT NULL,
+  `F03` int(10) NOT NULL,
+  `F04` int(10) NOT NULL,
+  `F05` int(10) NOT NULL,
+  `F06` enum('QY','TY') NOT NULL,
+   PRIMARY KEY (`F01`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;

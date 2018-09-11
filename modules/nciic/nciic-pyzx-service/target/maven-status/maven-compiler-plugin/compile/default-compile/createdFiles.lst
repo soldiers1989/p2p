@@ -1,0 +1,17 @@
+com\dimeng\p2p\modules\nciic\entity\PoliceCheckInfo.class
+com\dimeng\p2p\modules\nciic\entity\IdentifierAttr.class
+com\dimeng\p2p\modules\nciic\util\DocumentUtil.class
+com\dimeng\p2p\modules\nciic\service\variables\PyzxVariable$6.class
+com\dimeng\p2p\modules\nciic\util\JSONUtil.class
+com\dimeng\p2p\modules\nciic\service\variables\PyzxVariable$5.class
+com\dimeng\p2p\modules\nciic\service\variables\PyzxVariable$4.class
+com\dimeng\p2p\modules\nciic\service\variables\PyzxVariable$1.class
+com\dimeng\p2p\modules\nciic\client\Test.class
+com\dimeng\p2p\modules\nciic\service\INciicManageService.class
+com\dimeng\p2p\modules\nciic\util\Bean2XmlUtils.class
+com\dimeng\p2p\modules\nciic\service\achieve\NciicManageServiceImpl.class
+com\dimeng\p2p\modules\nciic\service\variables\PyzxVariable$2.class
+com\dimeng\p2p\modules\nciic\util\CompressStringUtil.class
+com\dimeng\p2p\modules\nciic\service\variables\PyzxVariable$3.class
+com\dimeng\p2p\modules\nciic\service\variables\PyzxVariable.class
+com\dimeng\p2p\modules\nciic\util\Base64.class

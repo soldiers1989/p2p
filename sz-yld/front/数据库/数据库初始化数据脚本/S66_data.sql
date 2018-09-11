@@ -1,0 +1,9 @@
+﻿INSERT INTO `S66`.`T6601` VALUES (1, '自动计算罚息', 'com.dimeng.p2p.scheduler.tasks.CalculationPenaltyTask', 'calculate', '0 0 1 * * ?', 'ENABLE', '2015-10-28 18:40:00', '2015-10-28 18:40:00', '2015-10-27 16:02:28', null, '自动计算罚息,每天晚上11点执行一次');
+INSERT INTO `S66`.`T6601` VALUES (2, '自动投资', 'com.dimeng.p2p.scheduler.tasks.AutoBidTask', 'autoBid', '0 */2 * * * ?', 'ENABLE', '2015-10-28 18:48:00', '2015-10-28 18:48:00', '2015-10-28 16:47:27', null, '自动投资，每隔2分钟执行一次');
+INSERT INTO `S66`.`T6601` VALUES (3, '自动还款', 'com.dimeng.p2p.scheduler.tasks.RepaymentTask', 'repayment', '0 0/30 9,20 * * ?', 'ENABLE', null, null, '2015-10-28 16:50:13', null, '自动还款，每天早上9点半和晚上8八点半执行一次');
+INSERT INTO `S66`.`T6601` VALUES (5, '体验金到期自动失效', 'com.dimeng.p2p.scheduler.tasks.ExperienceTask', 'invalid', '0 0 1 * * ?', 'ENABLE', null, null, '2015-10-28 16:53:42', null, '体验金到期自动失效，每天凌晨1点执行一次');
+INSERT INTO `S66`.`T6601` VALUES (6, '体验金利息自动返回', 'com.dimeng.p2p.scheduler.tasks.ExperienceTask', 'returnInvest', '0 0 */1 * * ?', 'ENABLE', null, null, '2015-10-28 16:54:48', null, '体验金利息自动返回，每天早上十二点执行一次');
+INSERT INTO `S66`.`T6601` VALUES (7, '给生日用户赠送红包、加息券', 'com.dimeng.p2p.scheduler.tasks.SendWelfareTask', 'send', '0 0 10 * * ?', 'ENABLE', null, null, '2015-10-28 16:56:13', null, '给生日用户赠送红包、加息券，每天早上十点执行一次');
+INSERT INTO `S66`.`T6601` VALUES (8, '债权自动下架', 'com.dimeng.p2p.scheduler.tasks.OffineCreditorRightsTask', 'offine', '0 0 1 * * ?', 'ENABLE', null, null, '2015-10-28 16:57:16', null, '债权自动下架，每天凌晨早上1点执行一次');
+INSERT INTO `S66`.`T6601` VALUES (9, '还款提醒', 'com.dimeng.p2p.scheduler.tasks.RepayMentWarnTask', 'remind', '0 0 8 * * ?', 'ENABLE', null, null, '2015-10-28 17:00:13', null, '还款提醒，每天早上八点执行一次');
+INSERT INTO `S66`.`T6601` VALUES (10, '加息券利息自动返还', 'com.dimeng.p2p.scheduler.tasks.ActivityManageTask', 'returnInterest', '0 0 22 * * ?', 'ENABLE', null, null, '2015-10-28 17:00:13', null, '加息券利息自动返还，每天晚上十点执行一次');
